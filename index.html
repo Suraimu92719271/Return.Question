@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Return.Question</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <h1>Return.Question</h1>
+    <p class="subtitle">あなたの問いをここへ。</p>
+
+    <!-- 常時表示カウンター -->
+    <p class="counter">
+        現在の質問数：
+        <span id="questionCounter">0 / 100</span>
+    </p>
+
+    <form id="questionForm">
+        <input type="text" id="name" placeholder="あなたのハンドルネーム（任意）">
+        <textarea id="question" placeholder="質問を書いてください" required></textarea>
+        <button type="submit">送信</button>
+    </form>
+
+    <p class="message" id="message"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
