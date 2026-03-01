@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    background: #ffffff;
+    color: #000000;
+}
+
+/* 中央寄せ */
+.container {
+    max-width: 600px;
+    margin: 120px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/* タイトル */
+h1 {
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+/* サブタイトル */
+.subtitle {
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: #555;
+    font-size: 16px;
+}
+
+/* カウンター */
+.counter {
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* フォームを縦並びに */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 入力欄 */
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    background: #fff;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* テキストエリア */
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+/* ボタン */
+button {
+    padding: 12px;
+    font-size: 16px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #333;
+}
+
+/* メッセージ */
+.message {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* 管理画面カード */
+.card {
+    border: 1px solid #000;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.card button {
+    margin-top: 10px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.card button:hover {
+    background: #000;
+    color: #fff;
+}

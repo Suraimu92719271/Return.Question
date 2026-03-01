@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Return.Question - Admin</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <h1>Return.Question</h1>
+    <p class="subtitle">Admin Panel</p>
+
+    <!-- 質問数表示 -->
+    <p id="adminCounter"></p>
+
+    <!-- ログイン -->
+    <div id="loginBox">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="login()">ログイン</button>
+    </div>
+
+    <!-- 管理画面本体 -->
+    <div id="adminContent" style="display:none;">
+        <div id="questionsList"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
